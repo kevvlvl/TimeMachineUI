@@ -1,11 +1,17 @@
-# TimeMachine UI
+# TimeMachineUI
 
-Written in React on NodeJS, this simple front-end connects to the TimeMachineAPI
+Front-end of the TimeMachineApi application
 
-## Prerequisites
+# Running it locally
 
-Run TimeMachineAPI. see README.md in https://github.com/kevvlvl/TimeMachineApi
+```
+npm start
+```
 
-## Setup
+Then, access it at ``http://localhost:3000``
 
-## Running the front-end
+# TODO
+
+1. style it up
+2. integrate with TimeMachineApi
+3. Demonstrate live inventory changes (using a socket)
