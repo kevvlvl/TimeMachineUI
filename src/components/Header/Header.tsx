@@ -1,10 +1,11 @@
 import React from "react"
+import "./style.css"
 
 class Header extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="header">
                 <h1>Time Machine UI</h1>
             </div>
         )
