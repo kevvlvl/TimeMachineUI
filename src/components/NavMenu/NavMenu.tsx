@@ -9,12 +9,6 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 function NavMenu() {
 
-    const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
-
     const handleMenuClick = (menuItem: string, e: React.MouseEvent) => {
 
         console.log('Clicked Menu Item: ', menuItem);
