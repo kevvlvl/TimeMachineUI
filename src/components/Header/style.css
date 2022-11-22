@@ -1,3 +1,7 @@
 .header {
-    background-color: #ccc
+    background-color: #dde;
+    font-size: 1em;
+    padding: 1px 20px 1px 20px;
+    text-align: left;
+    width: 100%;
 }

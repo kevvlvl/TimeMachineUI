@@ -5,9 +5,9 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div className="header">
-                <h1>Time Machine UI</h1>
-            </div>
+            <header className="header">
+                <i>Make sure to Have TimeMachineAPI running</i>
+            </header>
         )
     }
 }
