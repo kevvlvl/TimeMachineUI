@@ -19,6 +19,7 @@ function NavMenu() {
 
         console.log('Clicked Menu Item: ', menuItem);
         // TODO: set state and render different components
+        // TODO: Create ProductItem component, a list component, and the cart which shows the product list
     }
 
     return (
