@@ -6,14 +6,27 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
+import { useNavigate } from "react-router-dom"
 
 function NavMenu() {
 
+    let navigate = useNavigate();
+
     const handleMenuClick = (menuItem: string, e: React.MouseEvent) => {
 
-        console.log('Clicked Menu Item: ', menuItem);
-        // TODO: set state and render different components
-        // TODO: Create ProductItem component, a list component, and the cart which shows the product list
+        console.log('handleMenuClick() - Clicked Menu Item: ', menuItem);
+
+        switch(menuItem) {
+            case 'product':
+                navigate('/products');
+                break;
+            case 'cart':
+                navigate('/cart');
+                break;
+            case 'status':
+                navigate('/status');
+                break;
+        }
     }
 
     return (
